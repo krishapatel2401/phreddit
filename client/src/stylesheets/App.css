@@ -1,0 +1,221 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  padding-left: 10px;
+  position: fixed;
+  top: 0;
+  width: calc(100% - 20px);
+  z-index: 1000;
+  
+}
+
+button{
+  font-size: medium;
+  background-color: white;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.phreddit-button{
+  font-family: sans-serif;
+  color: orangered;
+  border: none;
+  font-weight: bold;
+  font-size: 27px;
+  background-color: white;
+}
+
+input[type = search]{  
+  text-align: left;
+  border-radius: 30px;
+  padding: 5px;
+  padding-left: 10px;
+  width: 250px;
+}
+
+.create-post-button{
+  border-radius: 15px;
+  background-color: grey;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+.create-post-button:hover{
+  background-color: orangered;
+  color: white;
+}
+
+.navigation-bar{
+  left: 0;
+  /* top: 54px; */
+  position: fixed;
+  border-right: 1px solid black;
+  width: 170px;
+  height: 100%;
+  text-align: center;
+  z-index: 990;
+}
+
+.home-button{
+  color: black;
+  background-color: lightgrey;
+  padding: 5px 35px;
+  margin-top: 5px;
+  border-style: none;
+  pointer-events: auto;
+  z-index: 1000;
+}
+
+.home-button:hover{
+  background-color: orangered;
+  color: white;
+}
+
+.create-community-button{
+  background-color: grey;
+  padding: 5px 32px;
+  border-style: none;
+}
+
+.create-community-button:hover{
+  background-color: orangered;
+  color: white;
+}
+
+.home-view-header{
+  /* margin-left: 60px; */
+  /* top: 40px; */
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+.view-main{
+  margin-left: 0px;
+  left: 170px;
+  top: 70px;
+  position: relative;
+  z-index: 0;
+  width: calc(100% - 170px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.hidden{
+  display: none;
+}
+
+a{
+  pointer-events: auto;
+  z-index: 1;
+}
+
+#community-list-nav {
+  position: relative;
+  z-index: 1;
+}
+
+.community-link{
+  z-index: 2;
+  position: relative;
+}
+
+.nested-comments{
+  margin: 15px;
+  margin-left: 30px;
+  padding-left: 10px;
+  border: thin solid black;
+  border-radius: 15px;
+}
+
+.active-button{
+  background-color: orangered;
+}
+
+.active-link{
+  background-color: orange;
+  padding: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  
+}
+
+.welcome-text{
+  padding-top: 50px;
+  font-size: 30px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  font-style: italic;
+  font-weight: 500;
+  color: #071013;
+
+}
+
+.welcome-box{
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  /* border: thin black solid; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;  
+}
+
+.welcome-buttons{
+  width: 90%;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.button-inactive{
+  background-color: lightgray;
+  color: gray;
+  border-radius: 15px;
+}
