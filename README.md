@@ -35,14 +35,13 @@ The project includes:
 1. install bcrypt on both server and client by typing in: npm install bcrypt
 2. open GitBash (on windows) or Terminal (on Mac),
     3. to get mongodb running, type: mongod
-    4. to open another instance of the GitBash or terminal
-    5. Go to the directory where server of the project is in. For eg. cd /Users/ninad/CSE\ 316/project-19twentyone/server 
-
-    6. then to initialise database, type in: node init.js mongodb://127.0.0.1:27017/phreddit admin@stonybrook.edu "Admin User" "adminpassword123"
-    7. then to run it (as done in previous assignments):
-        8. in a vs code terminal, type in: cd server
+4. open another instance of the GitBash or terminal
+    5. Go to the directory where server of the project is in. For eg. cd /GitHub/phreddit/server 
+    6. then initialise database, type in: node init.js mongodb://127.0.0.1:27017/phreddit admin@stonybrook.edu "Admin User" "adminpassword123"
+7. to run it:
+        8. in a vs code terminal (bash), type in: cd server
             9. then type in: npx nodemon server.js
-        9. in another vs code terminal type in: cd client
+        9. in another vs code terminal (bash) type in: cd client
             10. then type in: npm start
 
 # Project Info
