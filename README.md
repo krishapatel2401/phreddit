@@ -40,7 +40,8 @@ The project includes:
 
     6. then to initialise database, type in: node init.js mongodb://127.0.0.1:27017/phreddit admin@stonybrook.edu "Admin User" "adminpassword123"
     7. then to run it (as done in previous assignments):
-        8. in a vs code terminal, type in: nodemon server/server.js
+        8. in a vs code terminal, type in: cd server
+            9. then type in: npx nodemon server.js
         9. in another vs code terminal type in: cd client
             10. then type in: npm start
 
